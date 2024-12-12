@@ -1,0 +1,108 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corps du document */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* En-tête */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 10px;
+}
+
+/* Nom et titre */
+.name h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.name p {
+    font-size: 1.1em;
+    color: #7f8c8d;
+}
+
+/* Informations de contact */
+.contact p {
+    font-size: 1.1em;
+    color: #7f8c8d;
+    margin-top: 10px;
+}
+
+/* Section de l'expérience professionnelle */
+section h2 {
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-top: 30px;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 5px;
+}
+
+/* Détails des emplois */
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 1.3em;
+    color: #2980b9;
+}
+
+.job ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.job ul li {
+    margin-bottom: 5px;
+}
+
+/* Section formation */
+.formation p {
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #7f8c8d;
+}
+
+/* Liste des compétences */
+.competences ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.competences ul li {
+    margin-bottom: 8px;
+}
+
+/* Section Langues */
+.langues ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.langues ul li {
+    margin-bottom: 8px;
