@@ -1,3 +1,4 @@
+/* Styles généraux */
 {
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
 /* Corps du document */
 body {
     font-family: 'Bahnschrift Light Condensed', sans-serif;
-    background-color: ##DC143C;
+    background-color: #DC143C;
     color: #333;
     padding: 20px;
 }
@@ -41,13 +42,6 @@ header {
 .name p {
     font-size: 1.1em;
     color: #7f8c8d;
-}
-
-/* Informations de contact */
-.contact p {
-    font-size: 1.1em;
-    color: #7f8c8d;
-    margin-top: 10px;
 }
 
 /* Section de l'expérience professionnelle */
@@ -106,12 +100,23 @@ section h2 {
 
 .langues ul li {
     margin-bottom: 8px;
+}
 
-<div>   
-  width: 15em;
-  border: 1px solid #333;
-  box-shadow: 8px 8px 5px #444;
-  padding: 8px 12px;
-  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc)
-</div>
-   
+/* Style pour les div supplémentaires */
+.subsection {
+    width: 15em;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+    margin-top: 20px;
+}
+
+.subsection h2 {
+    color: #2980b9;
+    font-size: 1.2em;
+}
+
+.section {
+    margin-bottom: 30px;
+}
