@@ -65,7 +65,7 @@ section h2 {
 
 .job ul {
     list-style-type: disc;
-    padding-left: 20px;
+    padding-rith: 20px;
     margin-top: 5px;
 }
 
@@ -83,7 +83,7 @@ section h2 {
 /* Liste des compétences */
 .competences ul {
     list-style-type: square;
-    padding-left: 20px;
+    padding-left: 40px;
     margin-top: 10px;
 }
 
@@ -119,4 +119,5 @@ section h2 {
 
 .section {
     margin-bottom: 30px;
+    
 }
