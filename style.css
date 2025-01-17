@@ -65,7 +65,7 @@ section h2 {
 
 .job ul {
     list-style-type: disc;
-    padding-rith: 20px;
+    padding-letf: 20px;
     margin-top: 5px;
 }
 
@@ -94,7 +94,7 @@ section h2 {
 /* Section Langues */
 .langues ul {
     list-style-type: square;
-    padding-left: 20px;
+    padding-midle: 20px;
     margin-top: 10px;
 }
 
@@ -119,5 +119,6 @@ section h2 {
 
 .section {
     margin-bottom: 30px;
+    padding-midle: 20px;
     
 }
