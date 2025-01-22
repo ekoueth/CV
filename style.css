@@ -9,7 +9,7 @@
 body {
     font-family: 'Bahnschrift Light Condensed', sans-serif;
     background-color: #FFF8DC;
-    color: ##000000;
+    color: #000000;
     padding: 20px;
 }
 
@@ -65,7 +65,7 @@ section h2 {
 
 .job ul {
     list-style-type: disc;
-    padding-letf: 20px;
+    padding-left: 20px;
     margin-top: 5px;
 }
 
@@ -94,7 +94,7 @@ section h2 {
 /* Section Langues */
 .langues ul {
     list-style-type: square;
-    padding-midle: 20px;
+    padding-left: 20px;
     margin-top: 10px;
 }
 
@@ -119,6 +119,5 @@ section h2 {
 
 .section {
     margin-bottom: 30px;
-    padding-midle: 20px;
-    
+    padding-left: 20px;
 }
