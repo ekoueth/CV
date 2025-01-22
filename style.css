@@ -1,10 +1,10 @@
 /* Global styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', 
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5; /* Fond légèrement plus clair */
+    background-color: #pinks ; /* Fond légèrement plus clair */
     color: #444444; /* Texte légèrement plus foncé pour un meilleur contraste */
 }
 
