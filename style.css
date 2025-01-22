@@ -1,1 +1,86 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Fond légèrement plus clair */
+    color: #444444; /* Texte légèrement plus foncé pour un meilleur contraste */
+}
 
+/* Header */
+.header {
+    text-align: center;
+    background-color: #d1a99a; /* Couleur personnalisée */
+    color: white;
+    padding: 30px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3em; /* Taille plus grande pour un meilleur impact */
+    font-weight: bold;
+}
+
+/* Subsection (Compétences, Certifications, etc.) */
+.subsection {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1000px;
+}
+
+.compétence {
+    margin-bottom: 25px; /* Ajout d'espace entre les compétences */
+}
+
+h1, h2 {
+    color: #d1a99a; /* Couleur personnalisée pour les titres */
+}
+
+h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #d1a99a;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 8px 0;
+    color: #555555;
+}
+
+/* Section */
+.section {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section h1 {
+    color: #d1a99a;
+    font-size: 2.5em;
+    border-bottom: 3px solid #d1a99a;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Footer (non inclus ici, mais potentiellement ajouté si nécessaire) */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #d1a99a;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
