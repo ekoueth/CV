@@ -1,123 +1,95 @@
 /* Styles généraux */
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <!-- Appel de la feuille de style externe -->
+  <link href="style.css" type="text/css" rel="stylesheet" media="all">
+</head>
+<body>
 
-/* Corps du document */
-body {
-    font-family: 'Bahnschrift Light Condensed', sans-serif;
-    background-color: #FFF8DC;
-    color: #000000;
-    padding: 20px;
-}
+  <div class="container">
 
-/* Conteneur principal */
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+    <!-- En-tête -->
+    <header>
+      <div class="name">
+        <h1>Présentation</h1>
+        <p>Je suis Reine Ekoueth, étudiante en BTS Informatique, option développement au lycée Turgot, passionnée par la nouvelle technologie.</p>
+      </div>
+    </header>
 
-/* En-tête */
-header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #f1f1f1;
-    padding-bottom: 10px;
-}
+    <!-- Compétences -->
+    <div class="subsection">
+      <h2>Développement</h2>
+      <ul>
+        <li>HTML</li>
+        <li>PHP</li>
+        <li>Python</li>
+        <li>MySQL</li>
+        <li>GitHub</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
 
-/* Nom et titre */
-.name h1 {
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #2c3e50;
-}
+    <div class="subsection">
+      <h2>Système</h2>
+      <ul>
+        <li>Linux</li>
+        <li>Bash</li>
+        <li>Windows</li>
+      </ul>
+    </div>
 
-.name p {
-    font-size: 1.1em;
-    color: #7f8c8d;
-}
+    <div class="subsection">
+      <h2>Réseau</h2>
+      <ul>
+        <li>Installation serveur</li>
+        <li>Mise en place d'un service SSH</li>
+        <li>Sécurité serveur</li>
+        <li>Création de machines virtuelles</li>
+      </ul>
+    </div>
 
-/* Section de l'expérience professionnelle */
-section h2 {
-    font-size: 1.5em;
-    color: #2c3e50;
-    margin-top: 30px;
-    border-bottom: 2px solid #f1f1f1;
-    padding-bottom: 5px;
-}
+    <div class="subsection">
+      <h2>CEJMA</h2>
+      <ul>
+        <li>Droit du travail</li>
+        <li>Droit de l'information</li>
+        <li>Contrat</li>
+      </ul>
+    </div>
 
-/* Détails des emplois */
-.job {
-    margin-bottom: 20px;
-}
+    <div class="subsection">
+      <h2>Langues</h2>
+      <ul>
+        <li>Anglais</li>
+        <li>Français</li>
+        <li>Espagnol</li>
+      </ul>
+    </div>
 
-.job h3 {
-    font-size: 1.3em;
-    color: #2980b9;
-}
+    <!-- Certifications -->
+    <div class="section">
+      <h1>Certifications</h1>
+      <ul>
+        <li>PIX</li>
+        <li>Cisco</li>
+      </ul>
+    </div>
 
-.job ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    margin-top: 5px;
-}
+    <!-- Projet -->
+    <div class="section">
+      <h1>Projet</h1>
+      <ul>
+        <li>Projet Mode</li>
+        <li>Description du projet</li>
+        <li>Les logiciels mis en place</li>
+      </ul>
+    </div>
 
-.job ul li {
-    margin-bottom: 5px;
-}
+  </div>
 
-/* Section formation */
-.formation p {
-    font-size: 1.1em;
-    margin-top: 10px;
-    color: #7f8c8d;
-}
-
-/* Liste des compétences */
-.competences ul {
-    list-style-type: square;
-    padding-left: 40px;
-    margin-top: 10px;
-}
-
-.competences ul li {
-    margin-bottom: 8px;
-}
-
-/* Section Langues */
-.langues ul {
-    list-style-type: square;
-    padding-left: 20px;
-    margin-top: 10px;
-}
-
-.langues ul li {
-    margin-bottom: 8px;
-}
-
-/* Style pour les div supplémentaires */
-.subsection {
-    width: 15em;
-    border: 1px solid #333;
-    box-shadow: 8px 8px 5px #444;
-    padding: 8px 12px;
-    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
-    margin-top: 20px;
-}
-
-.subsection h2 {
-    color: #2980b9;
-    font-size: 1.2em;
-}
-
-.section {
-    margin-bottom: 30px;
-    padding-left: 20px;
-}
+</body>
+</html>
