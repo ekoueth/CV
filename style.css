@@ -26,7 +26,7 @@ body {
 /* Subsection (Compétences, Certifications, etc.) */
 .subsection {
     margin: 20px auto;
-    padding: 20px;
+    padding_middle: 20px;
     max-width: 1000px;
 }
 
