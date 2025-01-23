@@ -1,11 +1,11 @@
 /* Global styles */
 body {
-    font-family: 'Arial', 
-    line-height: 1.6;
+    font-family: 'Enthusiastic', 
+    line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-color: #pinks ; /* Fond légèrement plus clair */
-    color: #444444; /* Texte légèrement plus foncé pour un meilleur contraste */
+    background-color: #ffb6c1 ; /* Fond légèrement plus clair */
+    color: #000000; /* Texte légèrement plus foncé pour un meilleur contraste */
 }
 
 /* Header */
@@ -26,7 +26,7 @@ body {
 /* Subsection (Compétences, Certifications, etc.) */
 .section {
     margin: 20px auto;
-    padding_middle: 20px;
+    padding: 20px;
     max-width: 1000px;
 }
 
@@ -34,7 +34,7 @@ body {
     margin-bottom: 25px; /* Ajout d'espace entre les compétences */
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
     color: #d1a99a; /* Couleur personnalisée pour les titres */
 }
 
@@ -74,14 +74,14 @@ ul li {
     margin-bottom: 20px;
 }
 
-.column {
+   .column {
     text-align: left;
     margin-top: 50px;
     padding: 15px;
     background-color: #d1a99a;
     color: white;
-    font-size: 1em;
-    font-weight: bold
+    font-size: 0.8em; /* Texte plus petit */
+    font-weight: bold;
 }
   
 /* Footer (non inclus ici, mais potentiellement ajouté si nécessaire) */
@@ -90,7 +90,7 @@ footer {
     margin-top: 40px;
     padding: 15px;
     background-color: #d1a99a;
-    color: white;
+    color: black;
     font-size: 1em;
     font-weight: bold;
 }
