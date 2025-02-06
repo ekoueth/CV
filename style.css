@@ -4,14 +4,14 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-color: #ffb6c1 ; /* Fond légèrement plus clair */
+    background-color: #ab618b ; /* Fond légèrement plus clair */
     color: #000000; /* Texte légèrement plus foncé pour un meilleur contraste */
 }
 
 /* Header */
 .header {
     text-align: center;
-    background-color: #d1a99a; /* Couleur personnalisée */
+    background-color: #ffd175; /* Couleur personnalisée */
     color: white;
     padding: 30px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile */
