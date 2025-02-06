@@ -30,7 +30,9 @@ body {
     max-width: 1000px;
 }
 
-
+.competence {
+    padding : 2px;
+    
 h1, h2, h3, h4 {
     color: #d1a99a; /* Couleur personnalisée pour les titres */
 }
