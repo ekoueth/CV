@@ -1,95 +1,66 @@
 /* Global styles */
 body {
-    font-family: 'Enthusiastic', 
+    font-family: 'Arial', sans-serif;
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-color: #ab618b ; /* Fond légèrement plus clair */
-    color: #000000; /* Texte légèrement plus foncé pour un meilleur contraste */
+    background-color: #ffffff; /* Fond blanc */
+    color: #000000; /* Texte noir */
 }
 
 /* Header */
 .header {
     text-align: center;
-    background-color: #000000; /* Couleur personnalisée */
-    color: white;
+    background-color: #000000; /* Fond noir */
+    color: white; /* Texte blanc */
     padding: 30px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile */
 }
 
 .header h1 {
     margin: 0;
-    font-size: 3em; /* Taille plus grande pour un meilleur impact */
+    font-size: 3em;
     font-weight: bold;
 }
 
-/* Subsection (Compétences, Certifications, etc.) */
-.section {
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 1000px;
-}
-
-.competence {
-    padding : 2px;
-    
-h1, h2, h3, h4 {
-    color: #d1a99a; /* Couleur personnalisée pour les titres */
-}
-
-h2 {
-    font-size: 1.8em;
-    border-bottom: 2px solid #d1a99a;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
+/* Sections */
+h2, h3, h4 {
+    color: #000000; /* Titres noirs */
 }
 
 ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type: none; /* Enlever les puces */
+    padding-left: 0;
 }
 
 ul li {
     margin: 8px 0;
-    color: #555555;
+    color: #000000; /* Texte noir */
+    font-size: 1em; /* Taille de texte standard */
 }
 
-/* Section */
+.column {
+    margin-top: 20px;
+}
+
+/* Section container */
 .section {
     margin: 30px auto;
     padding: 20px;
     max-width: 1000px;
-    background-color: white;
-    border: 1px solid #e0e0e0;
+    background-color: #ffffff; /* Fond blanc */
+    border: 1px solid #e0e0e0; /* Bordure grise claire */
     border-radius: 8px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
-.section h1 {
-    color: #d1a99a;
-    font-size: 2.5em;
-    border-bottom: 3px solid #d1a99a;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-}
-
-   .column {
-    text-align: left;
-    margin-top: 50px;
-    padding: 15px;
-    background-color: #000000000000;
-    color: white;
-    font-size: 0.8em; /* Texte plus petit */
-    font-weight: bold;
-}
-  
-/* Footer (non inclus ici, mais potentiellement ajouté si nécessaire) */
+/* Footer */
 footer {
     text-align: center;
     margin-top: 40px;
     padding: 15px;
-    background-color: #d1a99a;
-    color: black;
+    background-color: #000000; /* Fond noir */
+    color: white; /* Texte blanc */
     font-size: 1em;
     font-weight: bold;
 }
