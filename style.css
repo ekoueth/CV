@@ -11,7 +11,7 @@ body {
 /* Header */
 .header {
     text-align: center;
-    background-color: #ffd175; /* Couleur personnalisée */
+    background-color: #000000; /* Couleur personnalisée */
     color: white;
     padding: 30px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile */
@@ -30,9 +30,6 @@ body {
     max-width: 1000px;
 }
 
-.compétence {
-    margin-bottom: 25px; /* Ajout d'espace entre les compétences */
-}
 
 h1, h2, h3, h4 {
     color: #d1a99a; /* Couleur personnalisée pour les titres */
@@ -78,7 +75,7 @@ ul li {
     text-align: left;
     margin-top: 50px;
     padding: 15px;
-    background-color: #d1a99a;
+    background-color: #000000000000;
     color: white;
     font-size: 0.8em; /* Texte plus petit */
     font-weight: bold;
